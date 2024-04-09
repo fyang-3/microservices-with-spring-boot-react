@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JetClientState">
+    <option name="folders">
+      <list>
+        <folderState>
+          <option name="id" value="b5d44c5a-5c6a-4a79-8051-9c7dab288a9d" />
+          <option name="name" value="Employees" />
+          <option name="requests">
+            <list>
+              <requestState>
+                <option name="body">
+                  <bodyState>
+                    <option name="raw" value="{&#10;  &quot;firstName&quot; : &quot;Tyron&quot;,&#10;  &quot;lastName&quot; : &quot;Jackson&quot;,&#10;  &quot;email&quot; : &quot;tyronj@gmail.com&quot;&#10;}" />
+                    <option name="type" value="JSON" />
+                  </bodyState>
+                </option>
+                <option name="headers">
+                  <list>
+                    <headerState>
+                      <option name="key" value="Content-Type" />
+                      <option name="value" value="application/json" />
+                    </headerState>
+                  </list>
+                </option>
+                <option name="id" value="52a2f873-68af-4324-8435-8be784b9d14f" />
+                <option name="method" value="POST" />
+                <option name="name" value="POST employee" />
+                <option name="url" value="http://localhost:3030/api/employees" />
+              </requestState>
+              <requestState>
+                <option name="id" value="db7bd729-e4b9-414e-b2f5-7f9ea70632c8" />
+                <option name="method" value="GET" />
+                <option name="name" value="GET employee" />
+                <option name="url" value="http://localhost:3030/api/employees/7" />
+              </requestState>
+            </list>
+          </option>
+          <option name="sortWeight" value="1000000" />
+          <option name="syncProperties">
+            <synchronizationPropertiesState>
+              <option name="folderPath" value="$PROJECT_DIR$/.jetclient" />
+            </synchronizationPropertiesState>
+          </option>
+        </folderState>
+        <folderState>
+          <option name="id" value="3088bdd3-ac1d-4be7-9d49-927922e68a95" />
+          <option name="name" value="Department" />
+          <option name="requests">
+            <list>
+              <requestState>
+                <option name="id" value="91d58afb-f7cb-4507-85cc-182dab4d76d6" />
+                <option name="method" value="GET" />
+                <option name="name" value="GET Department" />
+                <option name="url" value="http://localhost:2020/api/departments/IT-2023" />
+              </requestState>
+              <requestState>
+                <option name="body">
+                  <bodyState>
+                    <option name="raw" value="{&#10;  &quot;departmentName&quot;: &quot;Information Technology&quot;,&#10;  &quot;departmentDescription&quot;: &quot;This is The IT Department&quot;,&#10;  &quot;departmentCode&quot;: &quot;IT-2023&quot;&#10;}" />
+                    <option name="type" value="JSON" />
+                  </bodyState>
+                </option>
+                <option name="headers">
+                  <list>
+                    <headerState>
+                      <option name="key" value="Content-Type" />
+                      <option name="value" value="application/json" />
+                    </headerState>
+                  </list>
+                </option>
+                <option name="id" value="05993710-12eb-4b96-b42a-a2e90f2bcce4" />
+                <option name="method" value="POST" />
+                <option name="name" value="POST Department" />
+                <option name="url" value="http://localhost:2020/api/departments" />
+              </requestState>
+            </list>
+          </option>
+          <option name="sortWeight" value="2000000" />
+          <option name="syncProperties">
+            <synchronizationPropertiesState>
+              <option name="folderPath" value="$PROJECT_DIR$/.jetclient" />
+            </synchronizationPropertiesState>
+          </option>
+        </folderState>
+      </list>
+    </option>
+    <option name="id" value="5b7e93e9-e43a-43f8-8b8c-4615fc4c0dee" />
+  </component>
+</project>

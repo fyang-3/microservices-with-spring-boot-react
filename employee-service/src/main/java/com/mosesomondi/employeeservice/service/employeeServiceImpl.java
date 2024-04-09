@@ -55,16 +55,6 @@ public class employeeServiceImpl implements EmployeeService {
 
         DepartmentDTO departmentDTO = null;
 
-//        // Check if the employee has a department associated with them
-//        if (fetchedEmployee.getDepartmentCode() != null && !fetchedEmployee.getDepartmentCode().isEmpty()) {
-//            // Fetch department details if department code exists
-//            departmentDTO = webClient.get()
-//                    .uri("http://localhost:2020/api/departments/" + fetchedEmployee.getDepartmentCode())
-//                    .retrieve()
-//                    .bodyToMono(DepartmentDTO.class)
-//                    .block();
-//        }
-
         // Check if the employee has a department associated with them
         if (fetchedEmployee.getDepartmentCode() != null && !fetchedEmployee.getDepartmentCode().isEmpty()) {
             // Fetch department details if department code exists

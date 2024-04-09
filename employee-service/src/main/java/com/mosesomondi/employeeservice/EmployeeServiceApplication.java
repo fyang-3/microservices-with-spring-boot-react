@@ -9,11 +9,6 @@ import org.springframework.web.reactive.function.client.WebClient;
 @SpringBootApplication
 public class EmployeeServiceApplication {
 
-//	@Bean
-//	public WebClient webClient() {
-//		return WebClient.builder().build();
-//	}
-
 	@Bean
 	@LoadBalanced
 	WebClient.Builder builder() {
